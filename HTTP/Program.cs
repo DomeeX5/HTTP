@@ -56,7 +56,7 @@ namespace HTTP
 				.Select(group => (group.Key ? "Házas: " : "Nem házas: ") + group
 				.Count())
 				.ToList()
-				.ForEach(Console.WriteLine);
+				.ForEach(Console.WriteLine); 
 
 			Console.WriteLine("\n");
 		}
